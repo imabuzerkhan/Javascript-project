@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4567, #2341);
+  padding: 10px;
+}
+.todo-app {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  margin: 10px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 13px;
+}
+.todo-app h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: lightcoral;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin: 25px 0px;
+}
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+#btn {
+  background: red;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+ol li {
+  list-style: none;
+  font-size: 18px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  color: black;
+  position: relative;
+}
+
+.Checked {
+  color: rgb(0, 0, 0);
+  text-decoration: line-through;
+}
+
+ol li span {
+  position: absolute;
+  right: 0;
+  top: 11px;
+  font-size: 30px;
+}
+
+ol li span:hover {
+  color: red;
+}
