@@ -65,7 +65,7 @@ $(document).ready(function () {
     loop: true
   });
 
-
+  AOS.init();
 
   //  Owl Carousel  //
 
