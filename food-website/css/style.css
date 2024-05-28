@@ -371,7 +371,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://www.shutterstock.com/shutterstock/videos/1061926687/thumb/1.jpg?ip=x480");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -486,7 +486,7 @@ a:focus {
 
 .booking .booking-form {
     padding: 60px 30px;
-    background: #fbaf32;
+    background: #719a0a;
 }
 
 .booking .booking-form .control-group {
