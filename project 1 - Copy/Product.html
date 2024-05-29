@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmerMP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/Defaut.css">
+</head>
+<body>
+  <div class="heading w-full flex items-center justify-between bg-white shadow px-10 py-3">
+    <div class="logo flex items-center justify-center font-serif text-2xl">
+        <a href="index.html"><i>Farmer</i><span class="text-green-600 font-semibold">Mp</span></a>
+    </div>
+    <div class="navbar hidden md:block">
+        <ul class="flex items-center justify-center gap-10">
+            <a href="" class="text-black text-lg font-mono hover:text-green-600 transition-all duration-2000">
+                <li>Home</li>
+            </a>
+            <a href="" class="text-black text-lg font-mono hover:text-green-600 transition-all duration-2000">
+                <li>Product</li>
+            </a>
+            <a href="" class="text-black text-lg font-mono hover:text-green-600 transition-all duration-2000">
+                <li>Details</li>
+            </a>
+            <a href=""
+                class="bg-gray-700 text-white py-2 px-4 text-lg font-mono hover:bg-green-600 transition-all duration-2000 rounded-sm">
+                <li>Add to cart <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></li>
+            </a>
+        </ul>
+    </div>
+    <div class="mobile-responsive flex items-center md:hidden">
+        <button id="menu-button" class="text-2xl">
+            <i id="menu-icon" class="fa-sharp fa-solid fa-bars" style="color: #000000;"></i>
+            <i id="close-icon" class="fa-solid fa-x hidden" style="color: #000000;"></i>
+        </button>
+    </div>
+</div>
+<div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-white shadow-lg">
+    <ul class="flex flex-col items-center gap-4 py-4">
+        <a href="" class="text-black text-lg font-mono hover:text-green-600 transition-all duration-2000">
+            <li>Home</li>
+        </a>
+        <a href="" class="text-black text-lg font-mono hover:text-green-600 transition-all duration-2000">
+            <li>Product</li>
+        </a>
+        <a href="" class="text-black text-lg font-mono hover:text-green-600 transition-all duration-2000">
+            <li>Details</li>
+        </a>
+        <a href=""
+            class="bg-gray-700 text-white py-2 px-4 text-lg font-mono hover:bg-green-600 transition-all duration-2000 rounded-sm">
+            <li>Add to cart <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></li>
+        </a>
+    </ul>
+</div>
+</body>
+</html>
