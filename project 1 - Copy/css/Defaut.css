@@ -1,8 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: rgb(12, 18, 29);
+}
+.Form-box {
+  background-color: rgb(21, 23, 25);
+  width: 50%;
+  margin: 20px auto;
+  padding: 22px 30px;
 }
