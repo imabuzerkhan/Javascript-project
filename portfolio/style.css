@@ -884,6 +884,9 @@ section .title::after {
   .skills .skills-content .left .text {
     font-size: 19px;
   }
+  .flex{
+    margin-top: 100px;
+  }
   .contact .right form .fields {
     flex-direction: column;
   }
