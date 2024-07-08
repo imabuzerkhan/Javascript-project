@@ -416,15 +416,15 @@ section .title::after {
 
 /*  Projects  */
 .projects {
-  background: #111111;
+  background: #161513;
 }
 
 .projects .carousel .card {
   background: rgb(31, 31, 31);
 
   border-radius: 6px;
-  padding: 25px 35px;
-  text-align: center;
+  padding: 20px 15px;
+  text-align: start;
   overflow: hidden;
   transition: all 0.3s ease;
 }
@@ -442,6 +442,7 @@ section .title::after {
 }
 
 .projects .carousel .card .text {
+  text-align: start;
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
@@ -452,10 +453,8 @@ section .title::after {
 }
 
 .projects .carousel .card img {
-  height: 150px;
-  width: 150px;
+  width: 100%;
   object-fit: cover;
-  border-radius: 50%;
   border: 5px solid rgb(255, 255, 255);
   transition0: all 0.3s ease;
 }
